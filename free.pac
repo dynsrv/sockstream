@@ -19,6 +19,6 @@ if (isPlainHostName(host) ||
 // If the IP address of the local machine is within a defined
  
 // DEFAULT RULE: All other traffic, use below proxies, in fail-over order.
-return "PROXY 128.199.216.206:22; PROXY 128.199.216.206:3127";
+return "PROXY 45.64.97.5:5222; PROXY 45.64.97.5:3127";
  
 }
